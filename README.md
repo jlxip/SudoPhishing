@@ -1,7 +1,7 @@
 # SudoPhishing
 
 ## Description
-SudoPhishing is a pentesting tool for GNU/Linux systems. It modifies the call to `sudo` so that the user's password can be extracted and stored in a local file. This could be used as part of another tool in order to easily perform privilege escalation.
+SudoPhishing is a pentesting tool for GNU/Linux systems. It modifies the call to `sudo` so that the user's password can be extracted and stored in a local file. This could be used as [part of another tool](https://github.com/jlxip/SudoPhishing-POC) in order to easily perform privilege escalation.
 
 ## Method
 The program is based on the `-A` parameter of sudo, which, in a nutshell, executes a third party program to manage the user input.
